@@ -1,0 +1,35 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"s3:CreateBucket",
+				"s3:DeleteBucket",
+				"s3:ListAllMyBuckets",
+				"s3:GetBucketLocation",
+				"S3:GetBucketTagging",
+				"S3:GetBucketPolicy",
+				"S3:GetBucketCors",
+				"S3:GetBucketWebsite",
+				"S3:GetBucketVersioning",
+				"S3:GetAccelerateConfiguration",
+				"S3:GetBucketRequestPayment",
+				"S3:GetLifecycleConfiguration",
+				"S3:GetReplicationConfiguration",
+				"S3:GetEncryptionConfiguration",
+				"S3:GetBucketObjectLockConfiguration",
+				"S3:PutBucketTagging",
+				"S3:GetBucketLogging",
+				"S3:GetBucketAcl",
+				"s3:ListBucket",
+				"s3:PutObject",
+				"s3:GetObject",
+				"s3:DeleteObject"
+			],
+			"Resource": [
+				"arn:aws:s3:::*"
+			]
+		}
+	]
+}

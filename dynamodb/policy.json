@@ -1,0 +1,24 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"dynamodb:CreateTable",
+				"dynamodb:DeleteTable",
+				"dynamodb:ListTables",
+				"dynamodb:DescribeTable",
+				"dynamodb:DescribeContinuousBackups",
+				"dynamodb:DescribeTimeToLive",
+				"dynamodb:ListTagsOfResource",
+				"dynamodb:UpdateTable",
+				"dynamodb:PutItem",
+				"dynamodb:GetItem",
+				"dynamodb:DeleteItem"
+			],
+			"Resource": [
+				"*"
+			]
+		}
+	]
+}
