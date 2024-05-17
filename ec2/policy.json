@@ -12,6 +12,8 @@
 				"ec2:DescribeInstanceAttribute",
 				"ec2:DescribeInstanceCreditSpecifications",
                 "ec2:DescribeAvailabilityZones",
+                "ec2:DescribeKeyPairs",
+                "ec2:ImportKeyPair",
 				"ec2:AttachVolume",
 				"ec2:DetachVolume",
                 "ec2:DeleteVolume",
